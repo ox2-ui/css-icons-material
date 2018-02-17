@@ -22,7 +22,8 @@ You can use it in a webpack project by importing it `import '@ox2/css-icons-mate
 ### Update instructions
 
 1. Download new icon pack from icomoon app to `css-icons-material/downloads/`
-2. Copy the base64 encoded `styles.css` file to `src/index.css`:
+2. Copy `selection.json` to `src/`
+2. Generate data uri in `src/index.css` from woff2 file: `../downloads/fonts/icons-material.woff2`.
 3. Bump package version, `npm run build` and publish the package, output: `build/`
 ```
 npm run build
