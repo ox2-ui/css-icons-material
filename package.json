@@ -1,6 +1,6 @@
 {
   "name": "@ox2/css-icons-material",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Material font icon pack base64-encoded and embedded into a css file.",
   "repository": {
     "type": "git",
